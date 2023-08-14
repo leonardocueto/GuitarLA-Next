@@ -16,7 +16,7 @@ html {
 body {
   font-size: 2rem;
   font-family: var(--fuente-principal);
-  line-height: 1.5;
+  line-height: 1.5; 
 }
 img {
   max-width: 100%;
