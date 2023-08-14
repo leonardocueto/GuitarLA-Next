@@ -9,11 +9,7 @@
     flex-direction: column;
     align-items: center;
 }
-.barra img {
-    height: auto;
-    width: auto;
-  
-}
+
 @media (min-width: 768px) {
     .barra{
         flex-direction: row;

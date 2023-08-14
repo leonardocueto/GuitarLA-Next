@@ -9,9 +9,8 @@ export default function Header() {
     <header className={styles.header}>
       <div className={`contenedor ${styles.barra}`}>
         <Link href={'/'}>
-        <Image src="/img/logo.svg" width={300} height={300} alt='imagen logo'/>
+        <Image src="/img/logo.svg" width={300} height={40} alt='imagen logo'/>
         </Link>
-
         <nav className={styles.navegacion}>
           <Link href='/' className={router.pathname === '/' ? styles.active : ''}>
             Inicio
